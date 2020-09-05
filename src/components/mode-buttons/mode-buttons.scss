@@ -1,0 +1,32 @@
+.buttons {
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.button {
+  display: inline-block;
+  width: 48%;
+  padding: 10px;
+  color: #fff;
+  font-size: 20px;
+  background: #31363b;
+  border: none;
+
+  border-radius: 28px;
+  outline: none;
+  box-shadow: 5px 5px 10px #282c30, -5px -5px 10px #3a4046;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: #2e3338;
+  }
+
+  &_active {
+    box-shadow: inset 5px 5px 10px #282c30, inset -5px -5px 10px #3a4046;
+  }
+}

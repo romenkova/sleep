@@ -1,0 +1,15 @@
+{
+  "presets": [["@babel/preset-env"], ["@babel/preset-react"]],
+  "plugins": [
+    "@babel/plugin-proposal-class-properties",
+    "@loadable/babel-plugin",
+    [
+      "css-modules-transform",
+      {
+        // "preprocessCss": "./process-sass.js",
+        "extensions": [".css", ".scss"]
+      }
+    ]
+  ],
+  "ignore": ["node_modules"]
+}

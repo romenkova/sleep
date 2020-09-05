@@ -1,0 +1,29 @@
+.wheel {
+  margin: 10px auto;
+
+  svg {
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px #282c30, -5px -5px 10px #3a4046;
+  }
+}
+
+.wheel__segment {
+  transition: fill 0.3s linear;
+}
+
+.wheel__clock-face {
+  position: absolute;
+  top: 48px;
+  left: 38px;
+  width: 225px;
+  opacity: 0.1;
+  pointer-events: none;
+}
+
+.wheel__diff-hours {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 30px;
+  transform: translate(-50%, -50%);
+}
